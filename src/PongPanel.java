@@ -13,7 +13,7 @@ import java.awt.Font;
 
 public class PongPanel extends JPanel implements ActionListener, KeyListener{
 	
-	private final static Color BACKGROUND_COLOR = Color.WHITE;
+	private final static Color BACKGROUND_COLOR = Color.BLACK;
 	private final static int TIMER_DELAY = 5;
 	private final static int BALL_MOVEMENT_SPEED = 2;
 	
