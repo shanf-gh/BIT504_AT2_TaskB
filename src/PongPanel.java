@@ -71,7 +71,7 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener{
 		Graphics2D g2d = (Graphics2D) g.create();
 		Stroke dashed = new BasicStroke(3, BasicStroke.CAP_BUTT, BasicStroke.JOIN_BEVEL, 0, new float[] {9}, 0);
 		g2d.setStroke(dashed);
-		g2d.setPaint(Color.BLACK);
+		g2d.setPaint(Color.WHITE);
 		g2d.drawLine(getWidth()/2, 0, getWidth()/2, getHeight());
 		g2d.dispose();
 	}
